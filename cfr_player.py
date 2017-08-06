@@ -28,14 +28,14 @@ class CFRPlayer():
 
             card = int(history[0])
             if len(history) == 1:
-                result['p1_bet'][card] = node.strategy_[Game.BET]
+                result['p1_bet'][card] = node.get_average_strategy()[Game.BET]
             elif len(history) == 2:
                 if history[1] == Game.CHECK:
-                    result['p2_bet'][card] = node.strategy_[Game.BET]
+                    result['p2_bet'][card] = node.get_average_strategy()[Game.BET]
                 else:
-                    result['p2_call'][card] = node.strategy_[Game.CALL]
+                    result['p2_call'][card] = node.get_average_strategy()[Game.CALL]
             elif len(history) == 3:
-                result['p1_check_call'][card] = node.strategy_[Game.CALL]
+                result['p1_check_call'][card] = node.get_average_strategy()[Game.CALL]
 
         return result
 
@@ -147,7 +147,7 @@ class Node():
         return self.strategy_
 
     def get_average_strategy(self):
-        average_strategy = dict
+        average_strategy = dict()
         normalizing_sum = 0
 
         for action in self.actions_:
