@@ -16,7 +16,7 @@ So this game absolutely shares key concepts with NLHE, and I wanted to use CFR-M
 ### Results:
 ![Alt text](/CFR_test_results.png?raw=true "Test Results")
 
-As you can see, it is very close to the GTO solution proposed by G. Gordon on his website.
+As you can see, it is relatively close to the GTO solution proposed by G. Gordon on his website.
 
 ### Links/References:
 http://www.cs.cmu.edu/~ggordon/poker/
