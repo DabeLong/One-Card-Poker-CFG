@@ -26,6 +26,8 @@ However, there are some deviations:
 * Player one value bets Q, K, and A significantly more
 * Player two never bluff catches with a 4 and rarely does it with a 7, but compensates by bluff-catching more with a 5 or a 6
 
+Note that G. Gordon uses a linear programming solution while this one uses CFR to find the solution. Overall, the differences in the solutions are marginal to overall play quality.
+
 ### Links/References:
 http://www.cs.cmu.edu/~ggordon/poker/
 http://modelai.gettysburg.edu/2013/cfr/cfr.pdf
