@@ -13,10 +13,18 @@ So this game absolutely shares key concepts with NLHE, and I wanted to use CFR-M
 ### To run:
 *'python cfr_test.py'* will run 1,000,000 iterations to find the optimal solution using CFR.
 
+### G. Gordon's proposed GTO solution
+![Alt text](/GTO_solution.png?raw=true "Test Results")
+
 ### Results:
 ![Alt text](/CFR_test_results.png?raw=true "Test Results")
 
-As you can see, it is relatively close to the GTO solution proposed by G. Gordon on his website.
+As you can see, the CFR solution is relatively close to the GTO solution. Player two always bets 2,3 and 9-A and doesn't bet any other hands when checked to. Player one's check-call range is almost identical for both charts. Additionally, player one loses on average 0.0637 bets per hand, which is very similar to G. Gordon's stated 0.064 average loss!
+
+However, there are some deviations:
+> Player one bluffs with a 2, 3, and 4 with different ratios compared to GTO solution, but the bluffing ratio is relatively similar
+> Player one value bets Q, K, and A significantly more
+> Player two never bluff catches with a 4 and rarely does it with a 7, but compensates by bluff-catching more with a 5 or a 6
 
 ### Links/References:
 http://www.cs.cmu.edu/~ggordon/poker/
