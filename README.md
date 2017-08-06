@@ -30,4 +30,5 @@ Note that G. Gordon uses a linear programming solution while this one uses CFR t
 
 ### Links/References:
 http://www.cs.cmu.edu/~ggordon/poker/
+
 http://modelai.gettysburg.edu/2013/cfr/cfr.pdf
