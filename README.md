@@ -14,7 +14,7 @@ So this game absolutely shares key concepts with NLHE, and I wanted to use CFR-M
 *'python cfr_test.py'* will run 1,000,000 iterations to find the optimal solution using CFR.
 
 ### Results:
-![Alt text](blob/master/CFR_test_results.png?raw=true "Test Results")
+![Alt text](/CFR_test_results.png?raw=true "Test Results")
 
 As you can see, it is very close to the GTO solution proposed by G. Gordon on his website.
 
