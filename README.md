@@ -22,9 +22,9 @@ So this game absolutely shares key concepts with NLHE, and I wanted to use CFR-M
 As you can see, the CFR solution is relatively close to the GTO solution. Player two always bets 2,3 and 9-A and doesn't bet any other hands when checked to. Player one's check-call range is almost identical for both charts. Additionally, player one loses on average 0.0637 bets per hand, which is very similar to G. Gordon's stated 0.064 average loss!
 
 However, there are some deviations:
-> Player one bluffs with a 2, 3, and 4 with different ratios compared to GTO solution, but the bluffing ratio is relatively similar
-> Player one value bets Q, K, and A significantly more
-> Player two never bluff catches with a 4 and rarely does it with a 7, but compensates by bluff-catching more with a 5 or a 6
+* Player one bluffs with a 2, 3, and 4 with different ratios compared to GTO solution, but the bluffing ratio is relatively similar
+* Player one value bets Q, K, and A significantly more
+* Player two never bluff catches with a 4 and rarely does it with a 7, but compensates by bluff-catching more with a 5 or a 6
 
 ### Links/References:
 http://www.cs.cmu.edu/~ggordon/poker/
